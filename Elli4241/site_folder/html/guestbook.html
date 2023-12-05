@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+	<meta name="author" content="Robert Ellis"/>
+	<meta name="keywords" content="Robert Ellis, Guestbook, Comments"/>
+    <meta name="description" content="Robert Ellis' guestbook page for feedback from site visitors"/>
+	<meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+    <title>Guestbook</title>
+	<style>
+	  input {
+	    background-color: #D3D3D3;
+	  }
+	</style>
+  </head>
+
+<body>
+  
+  <header>
+    <img class="banner" height="300" src="../images/banner1.png" 
+    alt="Robert Ellis Photo"/>
+  </header>
+  <br/>
+    
+  <nav>
+    <a href="../html/home.html" class="button">Home</a>
+	<a href="../html/resume.html" class="button">Resume</a>
+	<a href="../html/interests.html" class="button">Interests</a>
+	<a href="../html/reflections.html" class="button">Reflections</a>
+	<a href="../html/guestbook.html" class="button">Guestbook</a>
+  </nav>
+  <br/>
+  
+  <hr/>
+  
+  <h1 class="page-title" style="text-align: center;">Guestbook</h1>
+  
+  <article style="max-width: 30%;">
+  <form action="mailto:RobertEllis@example.com" target="_blank" method="post" enctype="text/plain">
+	
+	Enter Your Name: <input type="text" name="Name" size="40"/>
+	<br/>
+	<br/>
+	Enter Your E-mail: <input type="text" name="Email" size="40"/>
+	<br/>
+	<br/>
+	<br/>
+	What country do you live in? <input type="text" name="coutry" size="40"/>
+	<br/>
+	<br/>
+	How did you find me?<br/>
+	<input type="radio" name="how_found" value="LinkedIn"/>LinkedIn<br/>
+	<input type="radio" name="how_found" value="Referral"/>Referral<br/>
+	<input type="radio" name="how_found" value="Internet Search"/>Internet Search<br/>
+	<input type="radio" name="how_found" value="Other"/>Other<br/>
+	<br/>
+	Check here if you'd like to be on my mailing list:
+    <input type="checkbox" name="mailinglist"/><br/>
+    <br/>
+    <br/>
+	What web technologies are you interested in? (select all that apply):<br/>
+	<select name="interests" multiple="multiple" size="6" 
+	style="background-color: #D3D3D3;">
+	  <option>HTML</option>
+	  <option>CSS</option>
+	  <option>JavaScript</option>
+	  <option>AJAX</option>
+	  <option>SQL</option>
+	  <option>PHP</option>
+	</select>
+	<br/>
+	<br/>
+	Please Enter Your Website: <input type="text" name="Website" size="40" 
+	value="http://"/>
+	
+	<br/>
+	<br/>
+	Comments:<br/>
+	<textarea name="comments" cols="50" rows="6" style="background-color: #D3D3D3;" placeholder="Enter your message here."></textarea>
+	<br/>
+	<br/>
+	
+	<input type="submit" value="Submit" style="background-color: white;"/>
+	<input type="reset" style="background-color: white;"/>
+  </form>
+  </article>  
+  
+  <hr/>
+  <br/>	
+  <footer>
+    <img class="banner" height="300" src="../images/footer2.png" 
+    alt="Photo of trees"/>
+  </footer>  
+</body>
+</html>

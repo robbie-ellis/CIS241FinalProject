@@ -1,0 +1,66 @@
+header {
+	text-align: center;
+	display: block;
+}
+
+footer {
+	text-align: center;
+	display: block;
+	clear: right;
+}
+
+hr {
+	border-color: #BBBBBB;
+}
+
+article {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+}
+
+h1.page-title {
+	color: #FFDB58;
+}
+
+.banner {
+	width: 90%;
+	height: auto;
+	max-width: 900px;
+	box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+	font-family: arial, verdana, helvetica;
+	margin: 10px;
+	background-color: #8C8A93;
+}
+
+.button {
+	display: inline-block;
+	padding: 5px 16px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #FFDB58;
+	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+	color: #55DDE0;
+}
+
+nav {
+	text-align: center;
+}
+
+div.container {
+	text-align: center;
+}
+
+ul.skills {
+	display: inline-block;
+	text-align: left;
+	margin-top: 0;
+}
